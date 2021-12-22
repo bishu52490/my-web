@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+#che{
+    display: none;
+}
+.showche{
+    display: block!important;
+}
+#math{
+    display: none;
+}
+.showmath{
+    display: block!important;
+}
+#phy{
+    display: none;
+}
+.showphy{
+    display: block!important;
+}
+#geo{
+    display: none;
+}
+.showgeo{
+    display: block!important;
+}
+
+#his{
+    display: none;
+}
+.showhis{
+    display: block!important;
+}
+#eco{
+    display: none;
+}
+.showeco{
+    display: block!important;
+}
+#civ{
+    display: none;
+}
+.showciv{
+    display: block!important;
+}
+
+.carousel-inner img{
+    width: 100%; 
+    height: 90vh;
+}
+
+
+.glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
