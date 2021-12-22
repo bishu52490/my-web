@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+
+.heading{
+    padding: 5px 5px;
+}
 #che{
     display: none;
 }
